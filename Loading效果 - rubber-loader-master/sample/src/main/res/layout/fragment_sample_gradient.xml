@@ -1,0 +1,152 @@
+<FrameLayout
+    style="@style/PageFrame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_1">
+
+    <LinearLayout style="@style/TileContainer">
+
+        <TextView
+            style="@style/TileTitle"
+            android:text="@string/title_gradient"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/tile_bg"
+            android:orientation="horizontal"
+            android:padding="24dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="18dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@color/prime_2"/>
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="@color/extra_2"/>
+                </LinearLayout>
+
+                <com.greenfrvr.rubberloader.RubberLoaderView
+                    android:id="@+id/loader1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="18dp"
+                    app:loaderExtraColor="@color/extra_2"
+                    app:loaderPrimeColor="@color/prime_2"
+                    app:loaderSize="tiny"/>
+
+                <com.greenfrvr.rubberloader.RubberLoaderView
+                    android:id="@+id/loader2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="18dp"
+                    app:loaderExtraColor="@color/extra_3"
+                    app:loaderPrimeColor="@color/prime_3"
+                    app:loaderSize="tiny"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@color/prime_3"/>
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="@color/extra_3"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="18dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@color/prime_4"/>
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="@color/extra_4"/>
+                </LinearLayout>
+
+                <com.greenfrvr.rubberloader.RubberLoaderView
+                    android:id="@+id/loader3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="18dp"
+                    app:loaderExtraColor="@color/extra_4"
+                    app:loaderPrimeColor="@color/prime_4"
+                    app:loaderSize="tiny"/>
+
+                <com.greenfrvr.rubberloader.RubberLoaderView
+                    android:id="@+id/loader4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginTop="18dp"
+                    app:loaderExtraColor="@color/extra_5"
+                    app:loaderPrimeColor="@color/prime_5"
+                    app:loaderSize="tiny"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginRight="4dp"
+                        android:background="@color/prime_5"/>
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="@color/extra_5"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
