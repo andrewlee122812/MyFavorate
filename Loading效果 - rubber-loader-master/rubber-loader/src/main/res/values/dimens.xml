@@ -1,8 +1,0 @@
-<resources>
-    <dimen name="extra_tiny_radius">6dp</dimen>
-    <dimen name="tiny_radius">12dp</dimen>
-    <dimen name="default_radius">18dp</dimen>
-    <dimen name="normal_radius">24dp</dimen>
-    <dimen name="medium_radius">30dp</dimen>
-    <dimen name="large_radius">36dp</dimen>
-</resources>
