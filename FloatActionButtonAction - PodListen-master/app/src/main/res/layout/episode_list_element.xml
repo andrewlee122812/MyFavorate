@@ -1,0 +1,118 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="3dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="@color/background_contrast">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/card_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/play_add_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/clickable_list_element"
+            android:minWidth="70sp">
+
+            <TextView
+                android:id="@+id/time_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:singleLine="true"
+                android:textSize="11sp"/>
+
+            <ProgressBar
+                android:id="@+id/play_load_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:progressDrawable="@drawable/episode_progress_bar"
+                android:indeterminateDrawable="@drawable/episode_progress_bar_indeterminate"/>
+
+            <ImageView
+                android:id="@+id/play_add_image"
+                android:layout_width="match_parent"
+                android:layout_height="36sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:singleLine="true"
+                android:textSize="11sp"/>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/episode_image"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginRight="2sp"
+            android:contentDescription="@string/episode_image_description"/>
+
+
+        <TextView
+            android:id="@+id/episode_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/play_add_frame"
+            android:layout_toRightOf="@id/episode_image"
+            android:minHeight="55sp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/feed_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/episode_title"
+            android:layout_toLeftOf="@id/play_add_frame"
+            android:layout_toRightOf="@id/episode_image"
+            android:singleLine="true"
+            android:textSize="12sp"/>
+
+        <View
+            android:id="@+id/play_add_frame_divider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/feed_title"
+            android:layout_alignTop="@id/episode_title"
+            android:layout_marginBottom="-2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@id/episode_title"
+            android:background="@color/background_soft"/>
+
+
+        <View
+            android:id="@+id/description_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/feed_title"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/background_soft"/>
+
+        <com.einmalfel.podlisten.support.PatchedTextView
+            android:id="@+id/episode_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_divider"
+            android:linksClickable="true"
+            android:textSize="14sp"
+            android:singleLine="true"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

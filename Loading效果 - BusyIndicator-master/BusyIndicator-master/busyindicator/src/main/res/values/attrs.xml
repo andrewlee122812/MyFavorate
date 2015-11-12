@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BusyIndicator">
+        <attr name="bigpoint_color" format="color" />
+        <attr name="smallpoint_color" format="color" />
+        <attr name="bigpoint_count" format="integer" />
+        <attr name="background_color" format="color" />
+        <attr name="background_is_visible" format="boolean" />
+        <attr name="background_shape" format="enum">
+            <enum name="rounded_rectangle" value="0" />
+            <enum name="circle" value="1" />
+        </attr>
+        <attr name="infinite" format="boolean" />
+        <attr name="max_value" format="float" />
+        <attr name="percentage_is_visible" format="boolean" />
+        <attr name="percentage_decimal_places" format="integer" />
+    </declare-styleable>
+</resources>

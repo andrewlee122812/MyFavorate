@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RubberLoaderView">
+        <attr name="loaderSize" format="enum">
+            <enum name="extra_tiny" value="0"/>
+            <enum name="tiny" value="1"/>
+            <enum name="small" value="2"/>
+            <enum name="normal" value="3"/>
+            <enum name="medium" value="4"/>
+            <enum name="large" value="5"/>
+        </attr>
+        <attr name="loaderPrimeColor" format="color|reference"/>
+        <attr name="loaderExtraColor" format="color|reference"/>
+    </declare-styleable>
+</resources>

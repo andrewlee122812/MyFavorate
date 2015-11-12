@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_app">#FF000000</color>
+    <color name="primary_dark_app">#FF000000</color>
+    <color name="accent_app">#FFDD0000</color>
+
+    <color name="dark_bigpoint">#FFFAFDD1</color>
+    <color name="dark_smallpoint">#FF8B7AAE</color>
+    <color name="dark_background">#FF2F2800</color>
+
+    <color name="light_bigpoint">#FF447A87</color>
+    <color name="light_smallpoint">#FF895119</color>
+    <color name="light_background">#FFFBFEFC</color>
+    <color  name="light_fragment_background">#FF000201</color>
+
+    <color name="trans_bigpoint">#FFF17A00</color>
+    <color name="trans_smallpoint">#FF0D2C35</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-74c1b4eded8e480f86a2dc29d2e78a8e78f7868d.jar" />
+    </item>
+    <item
+        jar="F:\SDK\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-a8191eb78c0a16b169dcc66d4bb5326c17a0df0e.jar" />
+    </item>
+    <item
+        jar="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\pre-dexed\debug\classes-f3fd00b2f01204cb4cf4ef2bcb2e226c6ecd07ee.jar" />
+    </item>
+    <item
+        jar="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\exploded-aar\com.github.lguipeng\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c94ebfac5b6f50efc538a61db2eb7e6807bcafbc">
+        <dex dex="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\pre-dexed\debug\classes-6d07da48630df66b6ebb506816e721374c38db75.jar" />
+    </item>
+    <item
+        jar="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\Develop\AndroidTestProject\AnimCheckBox-master\app\build\intermediates\pre-dexed\debug\classes-37f218bf1bb7421f2ac193589c434518f5cb34bf.jar" />
+    </item>
+
+</items>

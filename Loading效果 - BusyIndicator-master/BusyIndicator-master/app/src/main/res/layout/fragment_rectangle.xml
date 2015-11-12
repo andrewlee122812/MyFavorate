@@ -1,0 +1,46 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.silverforge.busyindicator.RectangleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.silverforge.controls.BusyIndicator
+            app:background_is_visible="true"
+            app:background_color="@color/dark_background"
+            app:bigpoint_color="@color/dark_bigpoint"
+            app:smallpoint_color="@color/dark_smallpoint"
+
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            />
+
+        <com.silverforge.controls.BusyIndicator
+            android:id="@+id/finiteRectangleBusyIndicator"
+
+            app:background_is_visible="true"
+            app:background_shape="rounded_rectangle"
+            app:background_color="@color/dark_background"
+            app:bigpoint_color="@color/dark_bigpoint"
+            app:smallpoint_color="@color/dark_smallpoint"
+            app:bigpoint_count="20"
+
+            app:infinite="false"
+            app:max_value="100"
+            app:percentage_is_visible="true"
+            app:percentage_decimal_places="1"
+
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+</FrameLayout>

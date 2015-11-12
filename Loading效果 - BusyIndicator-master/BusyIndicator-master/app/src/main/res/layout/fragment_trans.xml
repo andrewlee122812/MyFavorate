@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.silverforge.busyindicator.TransFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.silverforge.controls.BusyIndicator
+            app:bigpoint_color="@color/trans_bigpoint"
+            app:smallpoint_color="@color/light_smallpoint"
+
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            />
+
+        <com.silverforge.controls.BusyIndicator
+            android:id="@+id/finiteTransBusyIndicator"
+
+            app:bigpoint_color="@color/trans_bigpoint"
+            app:smallpoint_color="@color/trans_smallpoint"
+            app:bigpoint_count="20"
+
+            app:infinite="false"
+            app:max_value="100"
+            app:percentage_is_visible="true"
+            app:percentage_decimal_places="0"
+
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+</FrameLayout>
