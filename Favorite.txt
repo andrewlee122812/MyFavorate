@@ -1,0 +1,3 @@
+APKParser:
+	https://github.com/jaredrummler/APKParser
+	https://github.com/CaoQianLi/apk-parser
