@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">SearchView Sample</string>
+    <string name="version">Version: 2.1</string>
+    <string name="color">Color</string>
+    <string name="classic">Classic</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="delete">Delete search history</string>
+    <string name="cont_desc">Content Description</string>
+    <string name="search">Search</string>
+
+</resources>
